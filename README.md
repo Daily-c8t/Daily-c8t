@@ -148,14 +148,3 @@ Daily-c8t/
 - [문제 78] [카페 확장](https://school.programmers.co.kr/learn/courses/30/lessons/250124) - Level 2
 - [문제 79] [보물 지도](https://school.programmers.co.kr/learn/courses/30/lessons/250125) - Level 3
 
-## 🎯 목표
-- 알고리즘 문제 해결 능력 향상
-- 다양한 자료구조와 알고리즘 패턴 학습
-- 코드 리뷰를 통한 코드 품질 개선
-- 팀워크를 통한 지속적인 학습 동기 부여
-
-## 📞 연락처
-궁금한 사항이 있으시면 Issues를 통해 문의해주세요!
-
----
-**Happy Coding! 🚀**
