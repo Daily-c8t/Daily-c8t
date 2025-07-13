@@ -4,6 +4,7 @@ public class fing9 {
 
 	class Solution {
 
+
 		public class Answer {
 			int cnt;
 			int deletedZero;
