@@ -2,6 +2,10 @@ public class Solution {
     private static class Count {
         public final int zero;
         public final int one;
+        //불변으로 만들어 주는 이유 생각해보기
+
+        //A{0,0}  B{0,0} value object -> A = B? 값은 같긴해 ->
+        //오픈소스기여 -> lombok 안 씀  //
 
         public Count(int zero, int one) {
             this.zero = zero;
@@ -9,8 +13,8 @@ public class Solution {
         }
 
         public Count add(Count other) {
-            return new Count(zero + other.zero, one + other.one);
-        }
+            return new Count(zero + other.zero, one + other.one); //메서드 체이닝?
+        }       //불변성 고려해서 짯구나
     }
 
     private Count count(int offsetX, int offsetY, int size,
