@@ -9,6 +9,7 @@ public class solution{
         int[] rule = RULES[person];
         int index = problem % rule.length;
         //미친 크랙; 규칙이 반복되니까 나누기로 규칙에서 몇번째인지 구하기 가능
+        //나머지 연산자
         return rule[index];
     }
 

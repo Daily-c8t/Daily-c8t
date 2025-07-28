@@ -1,6 +1,6 @@
 public class Solution{
 
-    private static final char[] AEIOU = "AEIOU".toCharrArray();
+    private static final char[] AEIOU = "AEIOU".toCharArray();
     //하나씩 넣기 위한 문자열배열
 
     private List<String> generate(String word){
